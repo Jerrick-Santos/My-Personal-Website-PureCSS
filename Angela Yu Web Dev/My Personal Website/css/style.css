@@ -1,0 +1,26 @@
+body{ /*Who*/
+    background-color/*What*/: #00334E/*How*/;
+    color: azure;
+    font-family: sans-serif;
+}
+
+a{
+    color: azure;
+}
+a:hover{ /*Pseudo-element - active*/
+    color: mediumaquamarine;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: mediumaquamarine;
+    border-width: 7px;
+    width: 5%;
+}
+
+h1, h2, h3{
+    color:mediumaquamarine;
+    font-family: sans-serif;
+}
+

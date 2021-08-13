@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/style.css"> <!--external css referencing-->
+</head>
+<body>
+    <h2>Contact Me!</h2>
+    <ul>
+        <li><a href="mailto:jerrickezekiel0122@gmail.com">jerrickezekiel0122@gmail.com</a>></li> <!--"mailto" is to email a given email address-->
+        <li> +63 09165505964</li>
+        <li><a href="https://www.linkedin.com/in/jerrick-ezekiel-santos-46408b1b8/">Linkedin</a></li>
+        <li><a href="https://www.instagram.com/jerrickezekiel0122/">Instagram</a></li>
+        <li><a href="https://www.facebook.com/jerrickezekiel.santos/">Facebook</a></li>
+    </ul>
+
+    <form action="mailto:jerrickezekiel0122@gmail.com" method="POST" enctype="text/plain"><!--forms-->
+        <label>Your Name:</label> <!--prompted text-->
+       <input type="text" name="name"><br><!--where user inputs the data-->
+       <label>Your Email:</label>
+       <input type="email" name="email"><br>
+       <label>Your Message:</label><br>
+       <textarea name="message" cols="30" rows="10"></textarea><br> <!--resizable text boxes = textarea-->
+       <input type="submit"> <!--there are different types of attributes via https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input-->
+    </form>
+    
+</body>
+</html>
