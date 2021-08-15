@@ -1,0 +1,161 @@
+body{
+    background-color: #00334E;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.09375em;
+    color: #E8E8E8;
+    width: 100%;
+    overflow-x: hidden; /*remove sidescroll and excess on the sides of the web page*/
+
+}
+
+/*-------------------------------------------------------------*/
+/*navbar elements*/
+a{
+    color:#E8E8E8 ;
+    font-size: 1.30em;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 0.9375em;
+}
+
+#nav_elements{
+    list-style: none;  
+}
+
+a:hover{
+    color: #71EFA3;
+    transition-duration: 0.5s;
+}
+
+.navbar{
+    /*font-weight: bold;*/
+    text-align: center;
+    padding: 0.875em 1em;
+    list-style-type: none;
+
+    
+}
+
+/*-------------------------------------------------------------*/
+/*upper container*/
+.upper-container{
+    color: #E8E8E8;
+    font-size: 2.25em;
+    height: 300px;
+    margin-bottom: 405px;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+/*animation of color change in hello world*/
+#world {
+    animation: color-change 3s infinite;
+  }
+  
+@keyframes color-change {
+    5% { color: #E8E8E8; }
+    50% { color: #71EFA3; }
+  }
+
+
+/*-------------------------------------------------------------*/
+/*middle container*/
+.middle-container{
+    margin-bottom: 20px;
+}
+
+/*about me*/
+.about-me{
+    text-align: center;
+    border: 200px;
+    background-color: #E8E8E8;
+    color: #00334E;
+    margin-top: 200px;
+    padding:  3em 1em;
+    height: 350px;
+    width: 100%;
+    font-size: 20px;
+}
+
+/*skills*/
+.skills{
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    height: 200px;
+    text-align: left;
+    line-height: 1.5;
+}
+.dev-head{
+    padding-top: 15px;
+    line-height: 0.5;
+
+}
+.finance-head{
+    padding-top: 34px;
+    line-height: 0.5;
+}
+
+/*skills-pictures*/ 
+.dev
+{
+    width: 29%;
+    float: left; /*to place the image on the side of the text*/
+
+
+}
+.finance{
+    width: 28%;
+    float: left; 
+    
+}
+
+/*contact me*/
+.contact-me{
+    background-color: #E8E8E8;
+    color: #00334E;
+    height: 350px;
+    padding: 50px 50px 50px 50px;
+    
+    text-align: center;
+}
+#touch{
+    line-height: 2.5;
+    font-size: 40px;
+}
+
+#interested{
+    line-height: 2;
+}
+
+.btn{
+    color:#00334E;
+    background-color: #71EFA3;
+    border: none;
+}
+.btn:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#neon{
+    color:#71EFA3;
+}
+
+/*-------------------------------------------------------------*/
+/*bottom-container*/
+.bottom-container{
+    text-align: center;
+    height: 100px;
+    padding-top: 20px;
+}
